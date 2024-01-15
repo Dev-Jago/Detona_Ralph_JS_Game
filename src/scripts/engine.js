@@ -50,7 +50,7 @@ function countDown() {
 }
 
 function playSound(audioName) {
-    let audio = new Audio(`./audio/${audioName}`);
+    let audio = new Audio(`./src/audio/${audioName}`);
     audio.volume = 0.5;
 
     audio.addEventListener('error', function (e) {
